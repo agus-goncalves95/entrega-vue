@@ -2,6 +2,11 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Productos from '../views/Productos.vue'
+import Carrito from '../views/Carrito.vue'
+import Contacto from '../views/Contacto.vue'
+import Login from '../views/Login.vue'
+import Register from '../views/Register.vue'
+
 
 Vue.use(VueRouter)
 
@@ -13,18 +18,28 @@ const routes = [
   },
   {
     path: '/productos',
-    name: 'Productos',
+    name: 'productos',
     component: Productos
   },
   {
     path: '/carrito',
     name: 'carrito',
-    component: Productos
+    component: Carrito
   },
   {
     path: '/contacto',
     name: 'contacto',
-    component: Productos
+    component: Contacto
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: Login
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: Register
   },
 ]
 
