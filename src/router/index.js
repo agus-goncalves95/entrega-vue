@@ -6,6 +6,7 @@ import Carrito from '../views/Carrito.vue'
 import Contacto from '../views/Contacto.vue'
 import Login from '../views/Login.vue'
 import Register from '../views/Register.vue'
+import Admin from '../views/Admin.vue'
 
 
 Vue.use(VueRouter)
@@ -40,6 +41,11 @@ const routes = [
     path: '/register',
     name: 'register',
     component: Register
+  },
+  {
+    path: '/admin',
+    name: 'admin',
+    component: Admin
   },
 ]
 

@@ -6,7 +6,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page"><router-link to="/">Home</router-link></a>
         </li>
@@ -19,8 +19,14 @@
          <li class="nav-item">
           <a class="nav-link"><router-link to="/contacto">Contacto</router-link></a>
         </li>
-      </ul>
-
+      </ul> -->
+<v-spacer></v-spacer>
+<div>
+  <router-link to="/" class="pr-4">Home</router-link>
+  <router-link to="/admin">Admin</router-link>
+</div>
+    
+<v-spacer></v-spacer>
 
     <div class="btn-login">
     <div class="pr-1">
